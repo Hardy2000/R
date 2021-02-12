@@ -238,4 +238,31 @@ u<-t[c(2,3,6)]
 print(u)
 
 
+y<-c(FALSE,TRUE,FALSE,TRUE)
+y<-rnorm(100) 
+y[y>0]
+z<-rep(NA,100)
+z
+my_data<-sample(c(y,z),100)
+x<-my_data
+x[!is.na(x) & x>0]             #remove NA elements
 
+-x[-c(2,10)]
+
+
+#Giving Names to Vector
+vect<-c(a=10,b=20,c=NA)
+names(vect)
+names(vect2)<-c('a','b','c')
+
+
+
+#Exercise
+set.seed(10)
+a<-sample.int(100,10)
+a
+
+#Access the third and fifth element
+a[c(3,5)]
+#Access except 2nd and 4th
+a[c(-2,-4)]

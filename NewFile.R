@@ -266,3 +266,14 @@ a
 a[c(3,5)]
 #Access except 2nd and 4th
 a[c(-2,-4)]
+#sorting 
+sort(a)
+
+#sorting descending
+sort(a,decreasing = TRUE)
+
+
+
+set.seed(1)  #for  specific sequence of random no 
+y<-rnorm(100)
+mean(y)
